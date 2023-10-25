@@ -1,0 +1,11 @@
+/* Font Style */
+* {
+  font-family: "Clicker Script", cursive;
+  font-family: "Inter", sans-serif;
+}
+.overflow-y-hidden {
+  overflow-x: hidden;
+}
+.text-decoration-none a {
+  text-decoration: none !important;
+}
