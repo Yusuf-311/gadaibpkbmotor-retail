@@ -1,0 +1,9 @@
+ln -s ../sites-available/raovatquangcao.net.conf
+ln -s ../sites-available/rebellion-rugby.com.conf
+ln -s ../sites-available/ruanglaba.com.conf
+ln -s ../sites-available/sofaphuongquang.com.conf
+ln -s ../sites-available/thaiapartments.net.conf
+ln -s ../sites-available/thedatingchristian.net.conf
+ln -s ../sites-available/truebluedating.net.conf
+ln -s ../sites-available/vipessayservice.net.conf
+ln -s ../sites-available/webdatingcarrousel.net.net.conf

@@ -1,0 +1,9 @@
+mkdir /var/www/html/rebellion-rugby.com
+mkdir /var/www/html/ruanglaba.com
+mkdir /var/www/html/sofaphuongquang.com
+mkdir /var/www/html/thaiapartments.net
+mkdir /var/www/html/thedatingchristian.net
+mkdir /var/www/html/truebluedating.net
+mkdir /var/www/html/vipessayservice.net
+mkdir /var/www/html/webdatingcarrousel.net
+mkdir /var/www/html/raovatquangcao.net
