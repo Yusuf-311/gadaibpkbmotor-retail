@@ -10,6 +10,7 @@ h2 {
 
 .slick-slide img {
   width: 100%;
+  margin: auto !important;
 }
 
 .slick-slider {
