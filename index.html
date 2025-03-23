@@ -56,6 +56,55 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/slider.css" />
+    <!-- Page loading styles-->
+    <style>
+      .hero {
+        background-image: url(images/hero-section-background.svg);
+        background-size: cover;
+      }
+
+      .cta {
+        background-image: url(images/background-cta.png);
+        background-size: cover;
+      }
+
+      .text-bfi {
+        color: #04559f;
+      }
+
+      .bg-bfi {
+        background-color: #04559f;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        background: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      th {
+        background-color: #04559f;
+        color: white;
+        font-weight: bold;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      tr:hover {
+        background-color: #ffeb99;
+        transition: 0.3s;
+      }
+    </style>
   </head>
   <body>
     <!-- Header -->
@@ -113,76 +162,643 @@
         </div>
       </div>
     </header>
+    <section class="container-fluid hero p-lg-5 pt-5 pt-lg-6">
+      <div class="container">
+        <div class="row align-items-center border-bottom py-5">
+          <div class="col text-light">
+            <span class="bg-light text-bfi p-2 fs-5 mb-5 rounded-3">
+              Pinjaman Jaminan BPKB Mobil
+            </span>
+            <p class="text-light my-3 h4">*Subsection</p>
+            <h1 class="mb-4 mt-4 text-light display-4">
+              <span> Butuh dana tunai Untuk</span>
+              <br />
+              <span class="text-warning">Pendidikan?</span>
+            </h1>
 
-    <!-- Hero -->
-    <section>
-      <div
-        class="jarallax bg-dark min-vh-100 py-5 align-items-center"
-        data-jarallax=""
-        data-type="scroll-opacity"
-        data-speed="0.7"
-      >
-        <div
-          class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-50"
-        ></div>
-
-        <div class="container position-relative zindex-5 py-sm-4 py-lg-5 mt-4">
-          <!-- Text + button-->
-          <div class="row pt-lg-2 py-xl-4 py-xxl-5 mb-md-4 mb-lg-5">
-            <div class="col-md-10 col-lg-9 col-xl-8 col-xxl-7 pt-5 mb-5">
-              <h1 class="display-4 text-light text-uppercase pb-sm-2 pb-md-3">
-                subsection
-              </h1>
-              <h1 class="display-4 text-light text-uppercase pb-sm-2 pb-md-3">
-                Dapatkan dana cepat dengan gadai bpkb motor anda ganti dengan 
-              </h1>
-
-              <a
-                class="btn btn-outline-light"
-                href="https://wa.me/6281558444484?text=Halo%20gadaibpkbmotor%20saya%20mau%20mengajukan%C2%A0Pinjaman%C2%A0BPKB"
-                >Langsung Ajukan</a
-              >
+            <div>
+              <h3 class="text-light fs-3">bpkbmotor.id siap membantu Anda</h3>
+              <ul class="fs-4 list-unstyled">
+                <li>
+                  <i class="ai-check-circle text-success me-2"></i>Pengajuan
+                  cepat disetujui
+                </li>
+                <li>
+                  <i class="ai-check-circle text-success me-2"></i>Tenor Panjang
+                  sampai 48 bulan
+                </li>
+              </ul>
             </div>
+            <div
+              class="row align-items-center d-lg-flex justify-content-center my-lg-4 gap-lg-7"
+            >
+              <div class="col-lg-3">
+                <a
+                  href="https://api.whatsapp.com/send?phone=6282116109549&amp;text=%22Halo%20Saya%20Mau%20Pengajuan%20di%20BFI%20Finance%22"
+                  ><button class="btn btn-lg btn-warning rounded-0 fs-4">
+                    Ajukan Sekarang <i class="ai-chevron-right"></i></button
+                ></a>
+              </div>
+              <div class="col fw-bold mt-3 mt-lg-0">
+                <a
+                  href="https://api.whatsapp.com/send?phone=6282116109549&amp;text=%22Halo%20Saya%20Mau%20Pengajuan%20di%20BFI%20Finance%22"
+                  ><button class="btn btn-lg btn-outline-light fs-4 rounded-0">
+                    <i class="ai-percent"></i>
+                    Hitung Simulasi
+                  </button></a
+                >
+              </div>
+            </div>
+            <p class="">
+              bpkbmotor.id berizin dan diawasi oleh Otoritas Jasa Keuangan<img
+                src="images/logo ojk.png"
+                width="80"
+                alt=""
+              />
+            </p>
           </div>
-        </div>
-        <div
-          id="jarallax-container-0"
-          style="
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            z-index: -100;
-            clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px 100%);
-          "
-        >
-          <div
-            class="jarallax-img"
-            style="
-              background-image: url(&quot;https://i.pinimg.com/originals/5f/99/43/5f994382f7be99b7b81839e94aa25ce5.jpg&quot;);
-              object-fit: cover;
-              object-position: 50% 50%;
-              max-width: none;
-              position: fixed;
-              top: 0px;
-              left: 0px;
-              width: 854px;
-              height: 791.544px;
-              overflow: hidden;
-              pointer-events: none;
-              transform-style: preserve-3d;
-              backface-visibility: hidden;
-              margin-top: -8.77187px;
-              transform: translate3d(0px, 8.77187px, 0px);
-              opacity: 1;
-            "
-            data-jarallax-original-styles="background-image: url(https://i.pinimg.com/originals/5f/99/43/5f994382f7be99b7b81839e94aa25ce5.jpg);"
-          ></div>
+          <div class="col-md-6 py-3">
+            <img
+              class="d-block mx-auto"
+              src="images/hero-gadaibpkb.png"
+              alt="Responsive Web Design"
+            />
+          </div>
         </div>
       </div>
     </section>
+    <section class="container py-5">
+      <div class="row">
+        <div class="col table-responsive" bis_skin_checked="1">
+          <h5 class="text-bfi">Tabel Cicilan BPKB Mobil</h5>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>FUNDING BERSIH</th>
+                <th>6 BULAN</th>
+                <th>12 BULAN</th>
+                <th>18 BULAN</th>
+                <th>24 BULAN</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2,000,000</td>
+                <td>581,500</td>
+                <td>312,500</td>
+                <td>241,000</td>
+                <td>235,000</td>
+              </tr>
+              <tr>
+                <td>2,500,000</td>
+                <td>705,000</td>
+                <td>361,000</td>
+                <td>278,000</td>
+                <td>269,500</td>
+              </tr>
+              <tr>
+                <td>3,000,000</td>
+                <td>802,000</td>
+                <td>415,500</td>
+                <td>319,000</td>
+                <td>269,500</td>
+              </tr>
+              <tr>
+                <td>3,500,000</td>
+                <td>914,000</td>
+                <td>480,000</td>
+                <td>366,500</td>
+                <td>311,000</td>
+              </tr>
+              <tr>
+                <td>4,000,000</td>
+                <td>1,013,500</td>
+                <td>534,500</td>
+                <td>409,000</td>
+                <td>346,500</td>
+              </tr>
+              <tr>
+                <td>4,500,000</td>
+                <td>1,111,000</td>
+                <td>590,000</td>
+                <td>450,000</td>
+                <td>381,000</td>
+              </tr>
+              <tr>
+                <td>5,000,000</td>
+                <td>1,250,500</td>
+                <td>640,500</td>
+                <td>493,000</td>
+                <td>416,000</td>
+              </tr>
+              <tr>
+                <td>5,500,000</td>
+                <td>1,347,500</td>
+                <td>695,500</td>
+                <td>533,500</td>
+                <td>450,500</td>
+              </tr>
+              <tr>
+                <td>6,000,000</td>
+                <td>1,446,500</td>
+                <td>749,500</td>
+                <td>575,500</td>
+                <td>485,500</td>
+              </tr>
+              <tr>
+                <td>6,500,000</td>
+                <td>1,543,500</td>
+                <td>804,500</td>
+                <td>616,000</td>
+                <td>520,000</td>
+              </tr>
+              <tr>
+                <td>7,000,000</td>
+                <td>1,642,000</td>
+                <td>859,000</td>
+                <td>658,000</td>
+                <td>555,000</td>
+              </tr>
+              <tr>
+                <td>7,500,000</td>
+                <td>1,749,500</td>
+                <td>923,000</td>
+                <td>707,500</td>
+                <td>597,500</td>
+              </tr>
+              <tr>
+                <td>8,000,000</td>
+                <td>1,848,000</td>
+                <td>978,000</td>
+                <td>749,500</td>
+                <td>632,500</td>
+              </tr>
+              <tr>
+                <td>8,500,000</td>
+                <td>1,945,500</td>
+                <td>1,032,000</td>
+                <td>790,000</td>
+                <td>667,000</td>
+              </tr>
+              <tr>
+                <td>9,000,000</td>
+                <td>2,044,000</td>
+                <td>1,087,000</td>
+                <td>832,000</td>
+                <td>702,000</td>
+              </tr>
+              <tr>
+                <td>9,500,000</td>
+                <td>2,142,500</td>
+                <td>1,141,500</td>
+                <td>872,500</td>
+                <td>736,500</td>
+              </tr>
+              <tr>
+                <td>10,000,000</td>
+                <td>2,255,500</td>
+                <td>1,205,000</td>
+                <td>921,000</td>
+                <td>777,500</td>
+              </tr>
+              <tr>
+                <td>10,500,000</td>
+                <td>2,354,000</td>
+                <td>1,259,500</td>
+                <td>962,000</td>
+                <td>813,000</td>
+              </tr>
+              <tr>
+                <td>11,000,000</td>
+                <td>2,451,000</td>
+                <td>1,314,000</td>
+                <td>1,004,500</td>
+                <td>847,000</td>
+              </tr>
+              <tr>
+                <td>11,500,000</td>
+                <td>2,549,500</td>
+                <td>1,368,500</td>
+                <td>1,045,000</td>
+                <td>882,500</td>
+              </tr>
+              <tr>
+                <td>12,000,000</td>
+                <td>2,647,000</td>
+                <td>1,423,500</td>
+                <td>1,087,000</td>
+                <td>917,000</td>
+              </tr>
+              <tr>
+                <td>12,500,000</td>
+                <td>2,745,500</td>
+                <td>1,477,500</td>
+                <td>1,129,500</td>
+                <td>952,500</td>
+              </tr>
+              <tr>
+                <td>13,000,000</td>
+                <td>2,843,000</td>
+                <td>1,532,500</td>
+                <td>1,170,000</td>
+                <td>987,000</td>
+              </tr>
+              <tr>
+                <td>13,500,000</td>
+                <td>2,945,500</td>
+                <td>1,587,000</td>
+                <td>1,214,000</td>
+                <td>1,024,000</td>
+              </tr>
+              <tr>
+                <td>14,000,000</td>
+                <td>3,042,500</td>
+                <td>1,644,000</td>
+                <td>1,255,000</td>
+                <td>1,058,000</td>
+              </tr>
+              <tr>
+                <td>14,500,000</td>
+                <td>3,140,000</td>
+                <td>1,698,500</td>
+                <td>1,295,500</td>
+                <td>1,092,500</td>
+              </tr>
+              <tr>
+                <td>15,000,000</td>
+                <td>3,237,000</td>
+                <td>1,752,500</td>
+                <td>1,336,500</td>
+                <td>1,127,000</td>
+              </tr>
+              <tr>
+                <td>15,500,000</td>
+                <td>3,334,500</td>
+                <td>1,807,000</td>
+                <td>1,377,500</td>
+                <td>1,161,000</td>
+              </tr>
+              <tr>
+                <td>16,000,000</td>
+                <td>3,431,500</td>
+                <td>1,861,000</td>
+                <td>1,418,000</td>
+                <td>1,195,500</td>
+              </tr>
+              <tr>
+                <td>16,500,000</td>
+                <td>3,532,500</td>
+                <td>1,915,500</td>
+                <td>1,461,000</td>
+                <td>1,232,000</td>
+              </tr>
+              <tr>
+                <td>17,000,000</td>
+                <td>3,630,000</td>
+                <td>1,973,500</td>
+                <td>1,502,000</td>
+                <td>1,266,000</td>
+              </tr>
+              <tr>
+                <td>17,500,000</td>
+                <td>3,727,000</td>
+                <td>2,027,500</td>
+                <td>1,543,000</td>
+                <td>1,300,500</td>
+              </tr>
+              <tr>
+                <td>18,000,000</td>
+                <td>3,824,500</td>
+                <td>2,082,000</td>
+                <td>1,583,500</td>
+                <td>1,334,500</td>
+              </tr>
+              <tr>
+                <td>19,000,000</td>
+                <td>4,017,500</td>
+                <td>2,187,500</td>
+                <td>1,666,500</td>
+                <td>1,404,500</td>
+              </tr>
+              <tr>
+                <td>20,000,000</td>
+                <td>4,213,500</td>
+                <td>2,297,000</td>
+                <td>1,749,500</td>
+                <td>1,474,500</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col table-responsive" bis_skin_checked="1">
+          <h5 class="text-bfi">
+            Tabel Cicilan setelah Cashback untuk bulan ke 1
+          </h5>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>FUNDING BERSIH</th>
+                <th>6 BULAN</th>
+                <th>12 BULAN</th>
+                <th>18 BULAN</th>
+                <th>24 BULAN</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2,000,000</td>
+                <td>431,500</td>
+                <td>162,500</td>
+                <td>41,000</td>
+                <td>35,000</td>
+              </tr>
+              <tr>
+                <td>2,500,000</td>
+                <td>555,000</td>
+                <td>211,000</td>
+                <td>78,000</td>
+                <td>69,500</td>
+              </tr>
+              <tr>
+                <td>3,000,000</td>
+                <td>652,000</td>
+                <td>265,500</td>
+                <td>119,000</td>
+                <td>69,500</td>
+              </tr>
+              <tr>
+                <td>3,500,000</td>
+                <td>764,000</td>
+                <td>330,000</td>
+                <td>166,500</td>
+                <td>111,000</td>
+              </tr>
+              <tr>
+                <td>4,000,000</td>
+                <td>863,500</td>
+                <td>384,500</td>
+                <td>209,000</td>
+                <td>146,500</td>
+              </tr>
+              <tr>
+                <td>4,500,000</td>
+                <td>961,000</td>
+                <td>440,000</td>
+                <td>250,000</td>
+                <td>181,000</td>
+              </tr>
+              <tr>
+                <td>5,000,000</td>
+                <td>1,100,500</td>
+                <td>490,500</td>
+                <td>293,000</td>
+                <td>216,000</td>
+              </tr>
+              <tr>
+                <td>5,500,000</td>
+                <td>1,097,500</td>
+                <td>445,500</td>
+                <td>233,500</td>
+                <td>150,500</td>
+              </tr>
+              <tr>
+                <td>6,000,000</td>
+                <td>1,196,500</td>
+                <td>499,500</td>
+                <td>275,500</td>
+                <td>185,500</td>
+              </tr>
+              <tr>
+                <td>6,500,000</td>
+                <td>1,293,500</td>
+                <td>554,500</td>
+                <td>316,000</td>
+                <td>220,000</td>
+              </tr>
+              <tr>
+                <td>7,000,000</td>
+                <td>1,392,000</td>
+                <td>609,000</td>
+                <td>358,000</td>
+                <td>255,000</td>
+              </tr>
+              <tr>
+                <td>7,500,000</td>
+                <td>1,499,500</td>
+                <td>673,000</td>
+                <td>407,500</td>
+                <td>297,500</td>
+              </tr>
+              <tr>
+                <td>8,000,000</td>
+                <td>1,548,000</td>
+                <td>678,000</td>
+                <td>399,500</td>
+                <td>282,500</td>
+              </tr>
+              <tr>
+                <td>8,500,000</td>
+                <td>1,645,500</td>
+                <td>732,000</td>
+                <td>440,000</td>
+                <td>317,000</td>
+              </tr>
+              <tr>
+                <td>9,000,000</td>
+                <td>1,744,000</td>
+                <td>787,000</td>
+                <td>482,000</td>
+                <td>352,000</td>
+              </tr>
+              <tr>
+                <td>9,500,000</td>
+                <td>1,842,500</td>
+                <td>841,500</td>
+                <td>522,500</td>
+                <td>386,500</td>
+              </tr>
+              <tr>
+                <td>10,000,000</td>
+                <td>1,905,500</td>
+                <td>855,000</td>
+                <td>521,000</td>
+                <td>377,500</td>
+              </tr>
+              <tr>
+                <td>10,500,000</td>
+                <td>2,004,000</td>
+                <td>909,500</td>
+                <td>562,000</td>
+                <td>413,000</td>
+              </tr>
+              <tr>
+                <td>11,000,000</td>
+                <td>2,101,000</td>
+                <td>964,000</td>
+                <td>604,500</td>
+                <td>447,000</td>
+              </tr>
+              <tr>
+                <td>11,500,000</td>
+                <td>2,199,500</td>
+                <td>1,018,500</td>
+                <td>645,000</td>
+                <td>482,500</td>
+              </tr>
+              <tr>
+                <td>12,000,000</td>
+                <td>2,297,000</td>
+                <td>1,073,500</td>
+                <td>687,000</td>
+                <td>517,000</td>
+              </tr>
+              <tr>
+                <td>12,500,000</td>
+                <td>2,395,500</td>
+                <td>1,127,500</td>
+                <td>729,500</td>
+                <td>552,500</td>
+              </tr>
+              <tr>
+                <td>13,000,000</td>
+                <td>2,493,000</td>
+                <td>1,182,500</td>
+                <td>770,000</td>
+                <td>587,000</td>
+              </tr>
+              <tr>
+                <td>13,500,000</td>
+                <td>2,595,500</td>
+                <td>1,237,000</td>
+                <td>814,000</td>
+                <td>624,000</td>
+              </tr>
+              <tr>
+                <td>14,000,000</td>
+                <td>2,692,500</td>
+                <td>1,294,000</td>
+                <td>855,000</td>
+                <td>658,000</td>
+              </tr>
+              <tr>
+                <td>14,500,000</td>
+                <td>2,790,000</td>
+                <td>1,348,500</td>
+                <td>895,500</td>
+                <td>692,500</td>
+              </tr>
+              <tr>
+                <td>15,000,000</td>
+                <td>2,887,000</td>
+                <td>1,402,500</td>
+                <td>936,500</td>
+                <td>727,000</td>
+              </tr>
+              <tr>
+                <td>20,000,000</td>
+                <td>3,863,500</td>
+                <td>1,947,000</td>
+                <td>1,349,500</td>
+                <td>1,074,500</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="table-responsive" bis_skin_checked="1">
+        <h5 class="text-bfi">Tabel Cicilan BPKB Mobil</h5>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Range NTF MURNI</th>
+              <th>6-12 Bln (PAKET STANDARD)</th>
+              <th>13-36 Bln (PAKET STANDARD)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>10 Jt - < 15 Jt</td>
+              <td>350</td>
+              <td>400</td>
+            </tr>
+            <tr>
+              <td>7.5 Jt - < 10 Jt</td>
+              <td>300</td>
+              <td>350</td>
+            </tr>
+            <tr>
+              <td>5 Jt - < 7.5 Jt</td>
+              <td>250</td>
+              <td>300</td>
+            </tr>
+            <tr>
+              <td>2 Jt - < 5 Jt</td>
+              <td>150</td>
+              <td>200</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <div class="pt-2">
+      <div class="container py-sm-3">
+        <h3>Cara Gadai BPKB Motor Disini</h3>
+        <p>Pengajuan cepat melalui online tanpa perlu datang ke kantor.</p>
+        <div class="row pb-4 mb-2 pt-5 py-md-5">
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="d-flex align-items-center">
+              <i class="ai-truck text-primary" style="font-size: 2.125rem"></i>
+              <div class="ps-3">
+                <h6 class="fs-base text-dark mb-1">
+                  Nilai pinjaman mulai 2 juta dengan 95% nilai kendaraan.
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="d-flex align-items-center">
+              <i
+                class="ai-refresh-cw text-primary"
+                style="font-size: 2.125rem"
+              ></i>
+              <div class="ps-3">
+                <h6 class="fs-base text-dark mb-1">
+                  Bunga sangat rendah mulai dari 1.7% per bulan.
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="d-flex align-items-center">
+              <i
+                class="ai-life-buoy text-primary"
+                style="font-size: 2.125rem"
+              ></i>
+              <div class="ps-3">
+                <h6 class="fs-base text-dark mb-1">
+                  Pencairan cepat hanya 1 hari kerja lewat orang dalam.
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="d-flex align-items-center">
+              <i
+                class="ai-credit-card text-primary"
+                style="font-size: 2.125rem"
+              ></i>
+              <div class="ps-3">
+                <h6 class="fs-base text-dark mb-1">
+                  Tenor mulai dari 6 bulan sampai dengan 24 bulan.
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="hr-light my-0 mb-5" />
+      </div>
+    </div>
+    s
 
     <!-- Service -->
     <section class="container pt-5 pb-4 py-md-6 pt-lg-7">
